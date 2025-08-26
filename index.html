@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Finace Tracker</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Personal Finace Tracker </h1>
+   
+    <form id="trans">
+      <input id="amount" type="number" placeholder="Amount"/>
+      <input id="category" type="category" placeholder="Category"/>
+      <input id="date" type="date" placeholder="date"/>
+      <input id="note" type="text" placeholder="Note"/>
+
+      <button type="submit">Add</button>
+    </form>
+
+
+    <table id="transTable">
+      <thead>
+        <tr>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Date</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
